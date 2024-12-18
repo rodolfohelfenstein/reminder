@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440D1CB52D1377A800EC91D6 /* ReminderDetail in Frameworks */ = {isa = PBXBuildFile; productRef = 440D1CB42D1377A800EC91D6 /* ReminderDetail */; };
+		440D1CB72D1377A800EC91D6 /* ReminderDetailInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 440D1CB62D1377A800EC91D6 /* ReminderDetailInterface */; };
+		4432B7A32D11A26D0003F186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4432B79D2D11A26D0003F186 /* Preview Assets.xcassets */; };
+		4432B7A42D11A26D0003F186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4432B79F2D11A26D0003F186 /* Assets.xcassets */; };
+		4432B7A62D11A26D0003F186 /* WaterReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432B7A12D11A26D0003F186 /* WaterReminderApp.swift */; };
+		4432B7AB2D11A5900003F186 /* Builder in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7AA2D11A5900003F186 /* Builder */; };
+		4432B7AD2D11A5900003F186 /* BuilderInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7AC2D11A5900003F186 /* BuilderInterface */; };
+		4432B7B52D11A7C70003F186 /* WaterReminderApp+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432B7B42D11A7C10003F186 /* WaterReminderApp+Builder.swift */; };
+		4432B7CC2D11B4740003F186 /* ReminderCreate in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7CB2D11B4740003F186 /* ReminderCreate */; };
+		4432B7CE2D11B4740003F186 /* ReminderCreateInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7CD2D11B4740003F186 /* ReminderCreateInterface */; };
+		4432B7D02D11B4740003F186 /* ReminderList in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7CF2D11B4740003F186 /* ReminderList */; };
+		4432B7D22D11B4740003F186 /* ReminderListInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7D12D11B4740003F186 /* ReminderListInterface */; };
+		4432B7D42D11B4740003F186 /* ReminderStore in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7D32D11B4740003F186 /* ReminderStore */; };
+		4432B7D62D11B4740003F186 /* ReminderStoreInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7D52D11B4740003F186 /* ReminderStoreInterface */; };
+		4432B7D82D11B6B00003F186 /* WaterReminderApp+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432B7D72D11B6AD0003F186 /* WaterReminderApp+View.swift */; };
+		4432B7DB2D11C65C0003F186 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7DA2D11C65C0003F186 /* Home */; };
+		4432B7DD2D11C65C0003F186 /* HomeInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 4432B7DC2D11C65C0003F186 /* HomeInterface */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		440D1CB32D1375AA00EC91D6 /* ReminderDetail */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ReminderDetail; sourceTree = "<group>"; };
+		4432B78C2D11A2660003F186 /* WaterReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4432B79D2D11A26D0003F186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4432B79F2D11A26D0003F186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4432B7A12D11A26D0003F186 /* WaterReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterReminderApp.swift; sourceTree = "<group>"; };
+		4432B7A82D11A33A0003F186 /* Builder */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Builder; sourceTree = "<group>"; };
+		4432B7B42D11A7C10003F186 /* WaterReminderApp+Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterReminderApp+Builder.swift"; sourceTree = "<group>"; };
+		4432B7C82D11B1E20003F186 /* ReminderStore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ReminderStore; sourceTree = "<group>"; };
+		4432B7C92D11B1F00003F186 /* ReminderCreate */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ReminderCreate; sourceTree = "<group>"; };
+		4432B7CA2D11B1FF0003F186 /* ReminderList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ReminderList; sourceTree = "<group>"; };
+		4432B7D72D11B6AD0003F186 /* WaterReminderApp+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterReminderApp+View.swift"; sourceTree = "<group>"; };
+		4432B7D92D11C5700003F186 /* Home */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Home; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4432B7892D11A2660003F186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4432B7AD2D11A5900003F186 /* BuilderInterface in Frameworks */,
+				4432B7D42D11B4740003F186 /* ReminderStore in Frameworks */,
+				4432B7D62D11B4740003F186 /* ReminderStoreInterface in Frameworks */,
+				4432B7AB2D11A5900003F186 /* Builder in Frameworks */,
+				4432B7D02D11B4740003F186 /* ReminderList in Frameworks */,
+				4432B7DD2D11C65C0003F186 /* HomeInterface in Frameworks */,
+				4432B7CE2D11B4740003F186 /* ReminderCreateInterface in Frameworks */,
+				4432B7D22D11B4740003F186 /* ReminderListInterface in Frameworks */,
+				4432B7CC2D11B4740003F186 /* ReminderCreate in Frameworks */,
+				440D1CB72D1377A800EC91D6 /* ReminderDetailInterface in Frameworks */,
+				4432B7DB2D11C65C0003F186 /* Home in Frameworks */,
+				440D1CB52D1377A800EC91D6 /* ReminderDetail in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4432B7832D11A2660003F186 = {
+			isa = PBXGroup;
+			children = (
+				4432B7A72D11A2F00003F186 /* Libraries */,
+				4432B7A22D11A26D0003F186 /* WaterReminder */,
+				4432B7A92D11A5900003F186 /* Frameworks */,
+				4432B78D2D11A2660003F186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4432B78D2D11A2660003F186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4432B78C2D11A2660003F186 /* WaterReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4432B79E2D11A26D0003F186 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4432B79D2D11A26D0003F186 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4432B7A22D11A26D0003F186 /* WaterReminder */ = {
+			isa = PBXGroup;
+			children = (
+				4432B79E2D11A26D0003F186 /* Preview Content */,
+				4432B79F2D11A26D0003F186 /* Assets.xcassets */,
+				4432B7A12D11A26D0003F186 /* WaterReminderApp.swift */,
+				4432B7B42D11A7C10003F186 /* WaterReminderApp+Builder.swift */,
+				4432B7D72D11B6AD0003F186 /* WaterReminderApp+View.swift */,
+			);
+			path = WaterReminder;
+			sourceTree = "<group>";
+		};
+		4432B7A72D11A2F00003F186 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4432B7D92D11C5700003F186 /* Home */,
+				4432B7CA2D11B1FF0003F186 /* ReminderList */,
+				440D1CB32D1375AA00EC91D6 /* ReminderDetail */,
+				4432B7C92D11B1F00003F186 /* ReminderCreate */,
+				4432B7C82D11B1E20003F186 /* ReminderStore */,
+				4432B7A82D11A33A0003F186 /* Builder */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		4432B7A92D11A5900003F186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4432B78B2D11A2660003F186 /* WaterReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4432B79A2D11A2680003F186 /* Build configuration list for PBXNativeTarget "WaterReminder" */;
+			buildPhases = (
+				4432B7882D11A2660003F186 /* Sources */,
+				4432B7892D11A2660003F186 /* Frameworks */,
+				4432B78A2D11A2660003F186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterReminder;
+			packageProductDependencies = (
+				4432B7AA2D11A5900003F186 /* Builder */,
+				4432B7AC2D11A5900003F186 /* BuilderInterface */,
+				4432B7CB2D11B4740003F186 /* ReminderCreate */,
+				4432B7CD2D11B4740003F186 /* ReminderCreateInterface */,
+				4432B7CF2D11B4740003F186 /* ReminderList */,
+				4432B7D12D11B4740003F186 /* ReminderListInterface */,
+				4432B7D32D11B4740003F186 /* ReminderStore */,
+				4432B7D52D11B4740003F186 /* ReminderStoreInterface */,
+				4432B7DA2D11C65C0003F186 /* Home */,
+				4432B7DC2D11C65C0003F186 /* HomeInterface */,
+				440D1CB42D1377A800EC91D6 /* ReminderDetail */,
+				440D1CB62D1377A800EC91D6 /* ReminderDetailInterface */,
+			);
+			productName = WaterReminder;
+			productReference = 4432B78C2D11A2660003F186 /* WaterReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4432B7842D11A2660003F186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					4432B78B2D11A2660003F186 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 4432B7872D11A2660003F186 /* Build configuration list for PBXProject "WaterReminder" */;
+			developmentRegion = "pt-BR";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				"pt-BR",
+			);
+			mainGroup = 4432B7832D11A2660003F186;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4432B78D2D11A2660003F186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4432B78B2D11A2660003F186 /* WaterReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4432B78A2D11A2660003F186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4432B7A32D11A26D0003F186 /* Preview Assets.xcassets in Resources */,
+				4432B7A42D11A26D0003F186 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4432B7882D11A2660003F186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4432B7A62D11A26D0003F186 /* WaterReminderApp.swift in Sources */,
+				4432B7D82D11B6B00003F186 /* WaterReminderApp+View.swift in Sources */,
+				4432B7B52D11A7C70003F186 /* WaterReminderApp+Builder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4432B7982D11A2680003F186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4432B7992D11A2680003F186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4432B79B2D11A2680003F186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterReminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helfens.WaterReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4432B79C2D11A2680003F186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterReminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.helfens.WaterReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4432B7872D11A2660003F186 /* Build configuration list for PBXProject "WaterReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4432B7982D11A2680003F186 /* Debug */,
+				4432B7992D11A2680003F186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4432B79A2D11A2680003F186 /* Build configuration list for PBXNativeTarget "WaterReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4432B79B2D11A2680003F186 /* Debug */,
+				4432B79C2D11A2680003F186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		440D1CB42D1377A800EC91D6 /* ReminderDetail */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderDetail;
+		};
+		440D1CB62D1377A800EC91D6 /* ReminderDetailInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderDetailInterface;
+		};
+		4432B7AA2D11A5900003F186 /* Builder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Builder;
+		};
+		4432B7AC2D11A5900003F186 /* BuilderInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BuilderInterface;
+		};
+		4432B7CB2D11B4740003F186 /* ReminderCreate */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderCreate;
+		};
+		4432B7CD2D11B4740003F186 /* ReminderCreateInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderCreateInterface;
+		};
+		4432B7CF2D11B4740003F186 /* ReminderList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderList;
+		};
+		4432B7D12D11B4740003F186 /* ReminderListInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderListInterface;
+		};
+		4432B7D32D11B4740003F186 /* ReminderStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderStore;
+		};
+		4432B7D52D11B4740003F186 /* ReminderStoreInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReminderStoreInterface;
+		};
+		4432B7DA2D11C65C0003F186 /* Home */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Home;
+		};
+		4432B7DC2D11C65C0003F186 /* HomeInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeInterface;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4432B7842D11A2660003F186 /* Project object */;
+}

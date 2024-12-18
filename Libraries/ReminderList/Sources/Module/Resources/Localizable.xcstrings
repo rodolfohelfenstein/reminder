@@ -1,0 +1,26 @@
+{
+  "sourceLanguage" : "pt-BR",
+  "strings" : {
+    "reminder.list.empty.description" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem lembretes"
+          }
+        }
+      }
+    },
+    "reminder.list.item.delete" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deletar"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

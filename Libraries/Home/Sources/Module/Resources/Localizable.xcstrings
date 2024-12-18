@@ -1,0 +1,16 @@
+{
+  "sourceLanguage" : "pt-BR",
+  "strings" : {
+    "home.page.title" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meus Lembretes"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

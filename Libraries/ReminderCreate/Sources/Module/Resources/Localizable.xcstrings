@@ -1,0 +1,66 @@
+{
+  "sourceLanguage" : "pt-BR",
+  "strings" : {
+    "reminder-create.page.button" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criar Lembrete"
+          }
+        }
+      }
+    },
+    "reminder-create.page.notification-toggle" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deseja ser notificado?"
+          }
+        }
+      }
+    },
+    "reminder-create.page.repeat-toggle" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Repetir diáriamente?"
+          }
+        }
+      }
+    },
+    "reminder-create.page.time-picker" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Qual o horário?"
+          }
+        }
+      }
+    },
+    "reminder-create.page.title" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vamos criar um lembrete?"
+          }
+        }
+      }
+    },
+    "reminder-create.page.title.placeholder" : {
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome do Lembrete"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
